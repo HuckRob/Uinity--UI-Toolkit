@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameMenu.uss?fileID=7433441132597879392&amp;guid=15d284b8357b97d4bb64807c683bde03&amp;type=3#GameMenu" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.38); align-items: center; justify-content: space-around; flex-direction: column;">
+        <ui:Label tabindex="-1" text="Marble Roller" display-tooltip-when-elided="true" style="font-size: 130px; top: 5%; flex-direction: column-reverse;" />
+        <ui:Button text="Play" display-tooltip-when-elided="true" class="MenuButton" />
+        <ui:Button text="Multiplayer" display-tooltip-when-elided="true" class="MenuButton" />
+        <ui:Button text="Highscores" display-tooltip-when-elided="true" class="MenuButton" />
+        <ui:Button text="Exit" display-tooltip-when-elided="true" class="MenuButton" />
+    </ui:VisualElement>
+    <ui:Button text="Settings" display-tooltip-when-elided="true" style="position: absolute; top: 93%; left: 1.2%; align-self: center;" />
+</ui:UXML>

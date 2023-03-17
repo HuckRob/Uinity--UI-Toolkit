@@ -1,0 +1,9 @@
+.MenuButton {
+    flex-direction: column-reverse;
+    white-space: nowrap;
+    -unity-text-align: middle-center;
+    bottom: auto;
+    font-size: 40px;
+    background-color: rgb(172, 255, 254);
+    align-self: center;
+}
